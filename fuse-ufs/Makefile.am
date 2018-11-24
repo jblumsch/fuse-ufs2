@@ -133,4 +133,3 @@ install-data-hook:
 
 install-exec-local:
 	$(INSTALL) -d "$(DESTDIR)/$(sbindir)"
-	$(LN_S) -f "$(DESTDIR)/$(bindir)/fuse-ufs" "$(DESTDIR)/$(sbindir)/mount.fuse-ufs"
